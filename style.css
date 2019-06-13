@@ -1,0 +1,123 @@
+*{
+    
+    padding: 0px;
+    margin: 0px;
+}
+
+ul{
+    list-style: none;
+}
+#bodyContainer{
+    
+    margin: 30px 20%;
+    padding: 5px;
+    
+}
+
+.headerContainer{
+    background: #ececec;
+    padding: 15px 30px;
+}
+
+
+ul{
+    margin-top: 20px;
+    
+}
+
+
+li{
+    background: #ececec;
+    padding: 15px 30px;
+    margin-bottom: 8px;
+}
+
+/* input boxes*/
+
+.issueDescription{
+    margin: 5px ;
+    padding: 3px;
+    width:90%;
+}
+
+
+/* Add Button of Header*/
+
+#addIssue{
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+    
+    
+}
+
+
+
+/* MAIN ISSUE */
+
+/* Issue ID*/
+.issueID{
+    font-size: 11px;
+    margin-bottom: 10px;
+    
+}
+
+
+/* Issue Status */
+
+.issueStatus{
+    background-color: aqua;
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 10px 0px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 10%;
+}
+
+
+/* Real Issue */
+
+.realIssue{
+    font-size: 1.5em;
+    margin-bottom: 3px;
+}
+
+img{
+    height: 12px;
+    width: 12px;
+    margin-left:5px;
+    
+}
+
+.issueSeverity{
+    margin-right:25px;
+}
+
+/* Decision Buttons */
+
+.decisionButton button{
+    outline: none;
+    border: none;
+    padding: 5px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+
+.closeBtn{
+    background-color:orange;
+    margin-right: 5px;
+    
+}
+
+.deleteBtn{
+    background-color:Red;
+    
+}
+
